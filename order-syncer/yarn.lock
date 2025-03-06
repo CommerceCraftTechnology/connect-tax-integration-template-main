@@ -929,16 +929,16 @@
     triple-beam "1.4.1"
     winston "3.13.0"
 
-"@commercetools/platform-sdk@^7.9.0":
-  version "7.25.1"
-  resolved "https://registry.yarnpkg.com/@commercetools/platform-sdk/-/platform-sdk-7.25.1.tgz#32ce64ac7f6ea0423b43363734de2c297be5294e"
-  integrity sha512-GIfq3FN1JijElR4y3JZxLqu1S98IJ16UtWbAfwUqDnbBOREXpH52fdd5fHBMKpqXSxaYkzcmHLH+qrwlqWHQ7A==
+"@commercetools/platform-sdk@^8.4.0":
+  version "8.4.0"
+  resolved "https://registry.yarnpkg.com/@commercetools/platform-sdk/-/platform-sdk-8.4.0.tgz#03bbfeb58e90b310d02ea29b37389d85df434a7a"
+  integrity sha512-uBE0XP2Tu/NwhX1AYZxuKZ5Syk4Ecdxwt8LcWNDpwrSPpKcFxaKGa6QAziRx8POii7VFGPBho156Ptyx1GIevw==
   dependencies:
-    "@commercetools/sdk-client-v2" "^2.5.0"
+    "@commercetools/sdk-client-v2" "^3.0.0"
     "@commercetools/sdk-middleware-auth" "^7.0.0"
     "@commercetools/sdk-middleware-http" "^7.0.0"
     "@commercetools/sdk-middleware-logger" "^3.0.0"
-    "@commercetools/ts-client" "^2.1.7"
+    "@commercetools/ts-client" "^3.1.1"
 
 "@commercetools/sdk-client-v2@^2.5.0":
   version "2.5.0"
@@ -947,6 +947,13 @@
   dependencies:
     buffer "^6.0.3"
     node-fetch "^2.6.1"
+
+"@commercetools/sdk-client-v2@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@commercetools/sdk-client-v2/-/sdk-client-v2-3.0.0.tgz#dccee98fabfd2a06dcccd17c020ebef57c3f5a33"
+  integrity sha512-AU0qyd41lv3l7X/e17mwRbtqGUMCJrCP25/ca3CMGvLGYGLx8zFu5zUYggOyEMTkViwG3NlY83zTTG0/YoUo8Q==
+  dependencies:
+    buffer "^6.0.3"
 
 "@commercetools/sdk-middleware-auth@^7.0.0":
   version "7.0.1"
@@ -965,14 +972,12 @@
   resolved "https://registry.yarnpkg.com/@commercetools/sdk-middleware-logger/-/sdk-middleware-logger-3.0.0.tgz#4bfc7441d485b3f1046001f44200d12926accb84"
   integrity sha512-DhMXAA2yIch/AaGxy7st85Z1HFmeLtHWGkr9z5rX4xKjan4PHGB/IE5saAR+SNGHhs6+1Lp8vZEHDo3tFqVLmg==
 
-"@commercetools/ts-client@^2.1.7":
-  version "2.1.8"
-  resolved "https://registry.yarnpkg.com/@commercetools/ts-client/-/ts-client-2.1.8.tgz#d2e4a8829c82ac9f5d6e90b6b5ff3b5992cc8986"
-  integrity sha512-ESA4dPB7MlitDnERLhbALXamukyZcqSA/gPgK11dJ/36OjkEPZyaS+5mEGXP9DnvneOYGf7Q94mmtVXcEpm7qg==
+"@commercetools/ts-client@^3.1.1":
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/@commercetools/ts-client/-/ts-client-3.1.1.tgz#c772cf475954757ec9b10661d4a7f9d0d7437e67"
+  integrity sha512-setGWQIl+zp/67V9EDwIprba/YpvtyEuIMuiX0/xPtvBYrEZsxLKJj3FzdbYXp4q4xx2RiR2IpU1VJUC7ttNyw==
   dependencies:
-    abort-controller "3.0.0"
     buffer "^6.0.3"
-    node-fetch "^2.6.1"
 
 "@dabh/diagnostics@^2.0.2":
   version "2.0.3"
@@ -1411,13 +1416,6 @@
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/@ungap/structured-clone/-/structured-clone-1.3.0.tgz#d06bbb384ebcf6c505fde1c3d0ed4ddffe0aaff8"
   integrity sha512-WmoN8qaIAo7WTYWbAZuG8PYEhn5fkz7dZrqTBZ7dtt//lL2Gwms1IcnQ5yHqjDfX8Ft5j4YzDM23f87zBfDe9g==
-
-abort-controller@3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/abort-controller/-/abort-controller-3.0.0.tgz#eaf54d53b62bae4138e809ca225c8439a6efb392"
-  integrity sha512-h8lQ8tacZYnR3vNQTgibj+tODHI5/+l06Au2Pcriv/Gmet0eaj4TwWH41sO9wnHDiQsEj19q0drzdWdeAHtweg==
-  dependencies:
-    event-target-shim "^5.0.0"
 
 accepts@~1.3.8:
   version "1.3.8"
@@ -2246,11 +2244,6 @@ etag@~1.8.1:
   version "1.8.1"
   resolved "https://registry.yarnpkg.com/etag/-/etag-1.8.1.tgz#41ae2eeb65efa62268aebfea83ac7d79299b0887"
   integrity sha512-aIL5Fx7mawVa300al2BnEE4iNvo1qETxLrPI/o05L7z6go7fCw1J6EQmbK4FmJ2AS7kgVF/KEZWufBfdClMcPg==
-
-event-target-shim@^5.0.0:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/event-target-shim/-/event-target-shim-5.0.1.tgz#5d4d3ebdf9583d63a5333ce2deb7480ab2b05789"
-  integrity sha512-i/2XbnSz/uxRCU6+NdVJgKWDTM427+MqYbkQzD321DuCQJUqOuJKIA0IM2+W2xtYHdKOmZ4dR6fExsd4SXL+WQ==
 
 execa@^5.0.0:
   version "5.1.1"
